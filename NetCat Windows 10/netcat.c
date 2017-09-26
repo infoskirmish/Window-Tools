@@ -2045,7 +2045,7 @@ Debug (("netfd %d from port %d to port %d", netfd, ourport, curport))
 int helpme()
 {
   o_verbose = 1;
-  holler ("[v1.11 NT www.vulnwatch.org/netcat/]\n\
+  holler ("[v1.11 NT www.infoskirmish.com]\n\
 connect to somewhere:	nc [-options] hostname port[s] [ports] ... \n\
 listen for inbound:	nc -l -p port [options] [hostname] [port]\n\
 options:");
