@@ -2,6 +2,7 @@ Simple (Windows) Reverse Shell (SRS)
 
 Builds upon the work started by Ma~Far$ (a.k.a. Yahav N. Hoffmann)
 
+Connect with me at: infoskirmish.com
 =================
 ===== TL;DR =====
 =================
