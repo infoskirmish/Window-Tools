@@ -46,7 +46,8 @@ shell.c -> The file which contains the SRS C source code. Note: you can rename t
 
 run.vbs -> A proof of concept Visual Basic Script that shows you how to launch shell.exe with no windows popping up and no OBVIOUS indication anything was executed. 
 
-    caveat: you will need to edit run.vbs to reflect the ip address and port you server will be using.
+    caveat: you will need to edit run.vbs to reflect the ip address and port your server will be
+    using.
 
 shell.exe -> The binary bread and butter. 
              use: shell.exe <ip address> <port>
@@ -61,7 +62,7 @@ Server Setup (listener)
 
         ./compile.sh shell  
         NOTES: to change the name of the binary outcome change shell.c to <file>.c then
-               run ./compile.sh <file> or you can simply just rename the binary once
+               run ./compile.sh <file> -OR- you can simply just rename the binary once
                completed. 
 
     3) Upload or Download shell.exe to Windows 10 system
